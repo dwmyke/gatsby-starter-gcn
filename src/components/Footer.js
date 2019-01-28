@@ -65,14 +65,7 @@ const Footer = () => (
         >
           gatsby-starter-gcn
         </a>{' '}
-        by{' '}
-        <a
-          href="https://github.com/ryanwiemer"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          @ryanwiemer
-        </a>
+        &copy; Mikel-Jon West
       </Item>
     </List>
   </Wrapper>
