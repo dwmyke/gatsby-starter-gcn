@@ -1,0 +1,2 @@
+# Redirect default Netlify subdomain to primary domain
+http://compassionate-nightingale-f5cec1.netlify.com/* http://mikewest.pro/:splat 301!
