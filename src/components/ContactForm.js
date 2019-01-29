@@ -194,6 +194,7 @@ class ContactForm extends React.Component {
 
   render() {
     return (
+      
       <Form
         name="contact"
         onSubmit={this.handleSubmit}

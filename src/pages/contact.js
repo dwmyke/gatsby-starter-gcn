@@ -4,6 +4,7 @@ import config from '../utils/siteConfig'
 import Layout from '../components/Layout'
 import Container from '../components/Container'
 import PageTitle from '../components/PageTitle'
+import PageSub from '../components/PageSub'
 import ContactForm from '../components/ContactForm'
 import SEO from '../components/SEO'
 
@@ -21,6 +22,7 @@ const Contact = ({ data }) => {
 
       <Container>
         <PageTitle>Contact</PageTitle>
+        <PageSub><a href="tel:+1-503-862-6964">(503) 862-6964</a></PageSub>
         <ContactForm />
       </Container>
     </Layout>
