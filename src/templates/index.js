@@ -29,7 +29,7 @@ const Index = ({ data, pageContext }) => {
       <PageTitle>Mikel-Jon (Mike) West</PageTitle>
       <PageSub>Writer/Director • Video Editor • Visual Designer • Technical Developer</PageSub>
       <div style={{textAlign: `center`, position: `relative`, paddingBottom: `56.25%`, height: `0`, overflow: `hidden`, maxWidth: `100%`}}> 
-      <div style={{position: `absolute`, top: `0`, left: `0`, width: `100%`, height: `100%`}}<iframe width="560" height="315" src="https://www.youtube.com/embed/Md6fHL6lxYk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+      <div style={{position: `absolute`, top: `0`, left: `0`, width: `100%`, height: `100%`}}><iframe src="https://www.youtube.com/embed/Md6fHL6lxYk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
       </div>
       </div>
       </div>
