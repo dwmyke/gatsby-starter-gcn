@@ -60,7 +60,7 @@ const Card = ({ slug, heroImage, title, publishDate, body, ...props }) => {
       <Link to={`/${slug}/`}>
         <Img fluid={heroImage.fluid} backgroundColor={'#eeeeee'} />
         <Title>{title}</Title>
-        <Date>{publishDate}</Date>
+        
         <Excerpt
           dangerouslySetInnerHTML={{
             __html: body.childMarkdownRemark.excerpt,
