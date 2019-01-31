@@ -8,6 +8,8 @@ import Container from '../components/Container'
 import Pagination from '../components/Pagination'
 import SEO from '../components/SEO'
 import config from '../utils/siteConfig'
+import PageSub from '../components/PageSub'
+import PageTitle from '../components/PageTitle';
 
 const Index = ({ data, pageContext }) => {
   const posts = data.allContentfulPost.edges
@@ -23,6 +25,11 @@ const Index = ({ data, pageContext }) => {
           <title>{`${config.siteTitle} - Page ${currentPage}`}</title>
         </Helmet>
       )}
+      <div style={{padding: `1em`}}>
+      <PageTitle>Mikel-Jon (Mike) West</PageTitle>
+      <PageSub>Writer/Director • Video Editor • Visual Designer • Technical Developer</PageSub>
+      <div style={{textAlign: `center`}}> <iframe width="560" height="315" src="https://www.youtube.com/embed/Md6fHL6lxYk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </div>
+      </div>
       <Container>
         {isFirstPage ? (
           <CardList>

@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 
 const Sub = styled.h4`
-  font-size: ${props => (props.small ? '2em' : '3em')};
+  font-size: ${props => (props.small ? '1em' : '2em')};
   font-weight: 400;
   text-align: center;
   margin: 0 0 3rem 0;
