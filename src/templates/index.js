@@ -27,6 +27,7 @@ const Index = ({ data, pageContext }) => {
         </Helmet>
       )}
       <Banner></Banner>
+      <PageTitle>Portfolio</PageTitle>
       <Container>
         {isFirstPage ? (
           <CardList>
