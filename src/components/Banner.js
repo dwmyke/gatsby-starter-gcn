@@ -1,12 +1,17 @@
 import React from 'react'
 import styled from 'styled-components'
+import herobkg from '../images/herobkg.jpg'
 import Container from '../components/Container'
 import PageSub from '../components/PageSub'
 import PageTitle from '../components/PageTitle';
 
 const Wrapper = styled.div`
   padding: 1em;
-  background: no-repeat top center url("/imgages/herobkg.jpg"); 
+  background-image: url(${herobkg});
+  background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover; 
   `
   
   
