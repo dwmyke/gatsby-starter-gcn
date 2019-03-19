@@ -74,7 +74,7 @@ const GlobalStyle = createGlobalStyle`
 
   table {
     border-collapse: separate;
-    border-spacing: 20px 20px;
+    border-spacing: 1rem;
   }
 
   * {
