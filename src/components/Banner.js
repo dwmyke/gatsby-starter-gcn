@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import herobkg from '../images/herobkg.jpg'
 import Container from '../components/Container'
-import PageSub from '../components/PageSub'
+import BannerSub from '../components/BannerSub'
 import PageTitle from '../components/PageTitle';
 
 const Wrapper = styled.div`
@@ -19,7 +19,7 @@ const Wrapper = styled.div`
 const Banner = () => (
   <Wrapper>
     <PageTitle>Mikel-Jon (Mike) West</PageTitle>
-      <PageSub><a href="https://mikewest.pro/writer-director">Writer/Director</a> • Video Editor • Visual Designer • Technical Developer</PageSub>
+      <BannerSub><a href="https://mikewest.pro/writer-director">Writer/Director</a> • Video Editor • Visual Designer • Technical Developer</BannerSub>
       <Container><div style={{textAlign: `center`, position: `relative`, paddingBottom: `56.25%`, height: `0`, overflow: `hidden`, maxWidth: `100%`}}> 
       <iframe src='https://www.youtube.com/embed/Md6fHL6lxYk' frameborder='0' allowfullscreen style={{position: `absolute`, top: `0`, left: `0`, width: `100%`, height: `100%`}}></iframe>
       </div>
