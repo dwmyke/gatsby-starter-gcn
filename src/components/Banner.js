@@ -7,11 +7,12 @@ import PageTitle from '../components/PageTitle';
 
 const Wrapper = styled.div`
   padding: 1em;
+  color: white;
   background-image: url(${herobkg});
   background-attachment: fixed;
-		background-position: center;
-		background-repeat: no-repeat;
-		background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; 
   `
   
   
