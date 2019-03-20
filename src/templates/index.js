@@ -10,6 +10,7 @@ import SEO from '../components/SEO'
 import config from '../utils/siteConfig'
 import PageSub from '../components/PageSub'
 import Banner from '../components/Banner'
+import styled from 'styled-components'
 import PageTitle from '../components/PageTitle';
 
 const Spacer = styled.div`
