@@ -14,8 +14,8 @@ import styled from 'styled-components'
 import PageTitle from '../components/PageTitle';
 
 const Spacer = styled.div`
-  height:1rem; 
-  width:100%;
+  height: 2rem; 
+  width: 100%;
 `
 
 const Index = ({ data, pageContext }) => {
