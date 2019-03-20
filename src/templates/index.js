@@ -12,6 +12,11 @@ import PageSub from '../components/PageSub'
 import Banner from '../components/Banner'
 import PageTitle from '../components/PageTitle';
 
+const Spacer = styled.div`
+  height:1rem; 
+  width:100%;
+`
+
 const Index = ({ data, pageContext }) => {
   const posts = data.allContentfulPost.edges
   const featuredPost = posts[0].node
@@ -27,6 +32,7 @@ const Index = ({ data, pageContext }) => {
         </Helmet>
       )}
       <Banner></Banner>
+      <Spacer />
       <PageTitle>Portfolio</PageTitle>
       <Container>
         {isFirstPage ? (
